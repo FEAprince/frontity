@@ -1,0 +1,86 @@
+
+/*========================
+    Counterup Area 
+==========================*/
+.counterup_style--1 {
+  text-align: center;
+  margin-top: 40px;
+}
+.counterup_style--1 h5.counter {
+  font-size: 72px;
+  line-height: 80px;
+  margin-bottom: 17px;
+  position: relative;
+  display: inline-block;
+  color: #053bff;
+  margin-left: -20px;
+}
+@media only screen and (max-width: 767px) {
+  .counterup_style--1 h5.counter {
+    font-size: 45px;
+    line-height: 56px;
+    margin-bottom: 5px;
+    margin-left: -11px;
+  }
+}
+.counterup_style--1 h5.counter::after {
+  right: -26px;
+  position: absolute;
+  top: -17px;
+  font-size: 40px;
+  content: "+";
+}
+.counterup_style--1 p.description {
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0 5%;
+  color: rgba(29, 29, 36, 0.75);
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .counterup_style--1 p.description {
+    font-size: 16px;
+    line-height: 28px;
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .counterup_style--1 p.description {
+    font-size: 16px;
+    line-height: 28px;
+    padding: 0;
+  }
+}
+
+.rn-paralax-counterup .counterup_style--1 {
+  text-align: center;
+}
+.rn-paralax-counterup .counterup_style--1 h5.counter {
+  color: #053bff;
+}
+.rn-paralax-counterup .counterup_style--1 p.description {
+  color: #ffffff;
+}
+
+.counterup_style--2 {
+  text-align: center;
+}
+.counterup_style--2 h5.counter {
+  font-size: 50px;
+  line-height: 60px;
+  color: #053bff;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.counterup_style--2 h4.description {
+  font-size: 16px;
+  line-height: 30px;
+  padding: 0 10%;
+  margin-bottom: 0;
+}
+
+.theme-text-white .counterup_style--1 h5.counter {
+  color: #ffffff;
+}
+.theme-text-white .counterup_style--1 p.description {
+  color: #ffffff;
+}

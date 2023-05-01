@@ -1,0 +1,53 @@
+/*=====================
+    Pagination Styles 
+=======================*/
+.rn-pagination ul.page-list li {
+  display: inline-block;
+  padding: 5px;
+}
+.rn-pagination ul.page-list li a {
+  padding: 0 10px;
+  display: block;
+  text-align: center;
+  line-height: 38px;
+  min-width: 42px;
+  height: 42px;
+  border: 2px solid rgba(0, 0, 0, 0.3019607843);
+  background: #fff;
+  color: #000000;
+  position: relative;
+  z-index: 2;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.rn-pagination ul.page-list li a::before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  z-index: -1;
+  opacity: 0;
+  visibility: hidden;
+}
+.rn-pagination ul.page-list li a:hover {
+  color: #ffffff;
+  border-color: #053bff;
+}
+.rn-pagination ul.page-list li a:hover::before {
+  opacity: 1;
+  visibility: visible;
+}
+.rn-pagination ul.page-list li.active a {
+  color: #ffffff;
+  border-color: #053bff;
+}
+.rn-pagination ul.page-list li.active a::before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.line-separator {
+  border-bottom: 1px solid #ebebeb;
+}

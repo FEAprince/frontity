@@ -1,0 +1,129 @@
+/*==========================
+Progressbar Area 
+============================*/
+.rn-progress-bar .single-progress {
+  position: relative;
+  margin-top: 38px;
+}
+.rn-progress-bar .single-progress .title {
+  font-size: 15px;
+  color: #1f1f25;
+  margin-bottom: 10px;
+}
+.rn-progress-bar .single-progress .progress {
+  height: 4px;
+  border-radius: 4px;
+  box-shadow: none;
+  background-color: #f5f7fd;
+  overflow: visible;
+}
+.rn-progress-bar .single-progress .progress .progress-bar {
+  background-color: #053bff;
+  background-image: linear-gradient(-224deg, #053bff 0, 4164ca 90%);
+  position: relative;
+  color: #ee076e;
+}
+.rn-progress-bar .single-progress .label {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #1f1f25;
+  font-size: 15px;
+}
+@media only screen and (max-width: 767px) {
+  .rn-progress-bar .single-progress .label {
+    top: -8px;
+  }
+}
+.rn-progress-bar .single-progress.custom-color--1 .progress .progress-bar {
+  color: rgb(97, 253, 237);
+  background-color: rgb(13, 138, 188);
+  background-image: linear-gradient(-224deg, rgb(13, 138, 188) 0px, rgb(97, 253, 237) 100%);
+}
+.rn-progress-bar .single-progress.custom-color--2 .progress .progress-bar {
+  color: rgb(238, 206, 144);
+  background-color: rgb(212, 85, 41);
+  background-image: linear-gradient(-224deg, rgb(212, 85, 41) 0px, rgb(238, 206, 144) 100%);
+}
+.rn-progress-bar .single-progress.custom-color--3 .progress .progress-bar {
+  color: rgb(92, 81, 255);
+  background-color: rgb(246, 70, 169);
+  background-image: linear-gradient(-224deg, rgb(246, 70, 169) 0px, rgb(92, 81, 255) 100%);
+}
+.rn-progress-bar .single-progress.custom-color--4 .progress .progress-bar {
+  color: rgb(229, 82, 154);
+  background-color: rgb(231, 118, 84);
+  background-image: linear-gradient(-224deg, rgb(231, 118, 84) 0px, rgb(229, 82, 154) 100%);
+}
+.rn-progress-bar.progress-bar--2 .single-progress .progress {
+  height: 1px;
+  border-radius: 1px;
+}
+.rn-progress-bar.progress-bar--3 .single-progress .progress {
+  height: 20px;
+  border-radius: 0;
+}
+.rn-progress-bar.style-dots .single-progress .progress {
+  height: 32px;
+  border: 2px solid #f2f2f2;
+  padding: 4px;
+  border-radius: 30px;
+  box-shadow: none;
+  background: none;
+  overflow: visible;
+}
+.rn-progress-bar.style-dots .single-progress .progress .progress-bar {
+  position: relative;
+  top: auto;
+  bottom: auto;
+  left: auto;
+  right: auto;
+  background-color: transparent !important;
+  background-size: 25px 25px;
+  background-repeat: repeat-x;
+  background-position: -3px center;
+  background-image: radial-gradient(ellipse at center, #5945e6 50%, transparent 55%);
+}
+.rn-progress-bar.style-dots .single-progress .progress .progress-bar::before, .rn-progress-bar.style-dots .single-progress .progress .progress-bar::after {
+  display: none;
+}
+.rn-progress-bar.style-solid .single-progress .progress {
+  height: 32px;
+  padding: 6px;
+  border-radius: 30px;
+  box-shadow: none;
+  background-color: #f2f2f2;
+}
+.rn-progress-bar.style-solid .single-progress .progress .progress-bar {
+  position: relative;
+  top: auto;
+  bottom: auto;
+  left: auto;
+  right: auto;
+  border-radius: inherit;
+  background-color: #053bff;
+  background-image: linear-gradient(-224deg, #053bff 0, 4164ca 90%);
+}
+.rn-progress-bar.style-solid .single-progress .progress .progress-bar::before, .rn-progress-bar.style-solid .single-progress .progress .progress-bar::after {
+  display: none;
+}
+.rn-progress-bar.style-solid .single-progress.custom-color--1 .progress .progress-bar {
+  color: rgb(97, 253, 237);
+  background-color: rgb(13, 138, 188);
+  background-image: linear-gradient(-224deg, rgb(13, 138, 188) 0px, rgb(97, 253, 237) 100%);
+}
+.rn-progress-bar.style-solid .single-progress.custom-color--2 .progress .progress-bar {
+  color: rgb(238, 206, 144);
+  background-color: rgb(212, 85, 41);
+  background-image: linear-gradient(-224deg, rgb(212, 85, 41) 0px, rgb(238, 206, 144) 100%);
+}
+.rn-progress-bar.style-solid .single-progress.custom-color--3 .progress .progress-bar {
+  color: rgb(92, 81, 255);
+  background-color: rgb(246, 70, 169);
+  background-image: linear-gradient(-224deg, rgb(246, 70, 169) 0px, rgb(92, 81, 255) 100%);
+}
+.rn-progress-bar.style-solid .single-progress.custom-color--4 .progress .progress-bar {
+  color: rgb(229, 82, 154);
+  background-color: rgb(231, 118, 84);
+  background-image: linear-gradient(-224deg, rgb(231, 118, 84) 0px, rgb(229, 82, 154) 100%);
+}

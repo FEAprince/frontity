@@ -1,0 +1,172 @@
+/*--------------------------
+    Color Darker Version  
+----------------------------*/
+.active-dark {
+  background: #000000;
+}
+.active-dark [data-overlay="6"]:before,
+.active-dark [data-black-overlay="6"]:before,
+.active-dark [data-white-overlay="6"]:before {
+  display: none;
+}
+.active-dark [data-overlay]:before,
+.active-dark [data-black-overlay]:before,
+.active-dark [data-white-overlay]:before {
+  display: none;
+}
+.active-dark .service-white .service__style--1 .content h4.title {
+  color: #ffffff;
+}
+.active-dark .bg_image--3,
+.active-dark .bg_image--1,
+.active-dark .rn-testimonial-content .inner p::before,
+.active-dark .rn-testimonial-content .inner p::after,
+.active-dark .footer-right {
+  background-image: inherit !important;
+}
+.active-dark .bg_color--1,
+.active-dark .brand-separation {
+  background: #000000;
+}
+.active-dark .bg_color--5,
+.active-dark .footer-right {
+  background: #000000;
+}
+/* .active-dark ul.brand-style-2 img {
+  filter: invert(1);
+} */
+/* .active-dark h1, .active-dark h2, .active-dark h3, .active-dark h4, .active-dark h5, .active-dark h6, .active-dark .h1, .active-dark .h2, .active-dark .h3, .active-dark .h4, .active-dark .h5, .active-dark .h6 {
+  color: #ffffff;
+} */
+/* .active-dark a.btn-transparent {
+  color: #ffffff;
+} */
+/* .active-dark .section-title p,
+.active-dark .about-us-list p,
+.active-dark .about-inner .section-title p.description,
+.active-dark .service.service__style--2 .content p,
+.active-dark .service.service__style--2 .content ul li,
+.active-dark .counterup_style--1 p.description,
+.active-dark .rn-testimonial-content .author-info h6,
+.active-dark .slide.slider-style-3 .inner > span,
+.active-dark .single-tab-content ul li a,
+.active-dark .single-tab-content ul li {
+  color: #ffffff;
+} */
+.active-dark ul.tab-style--1 li::before {
+  background: #ffffff;
+}
+.active-dark ul.tab-style--1 li.react-tabs__tab--selected {
+  color: #053bff;
+}
+.active-dark ul.tab-style--1 li.react-tabs__tab--selected::before {
+  background: currentColor;
+}
+.active-dark .service.service__style--2:hover .content h3.title,
+.active-dark .service.service__style--2:hover .content p,
+.active-dark .service.service__style--2:hover .content ul li,
+.active-dark .rn-testimonial-content .author-info h6 span,
+.active-dark .rn-testimonial-content .inner p,
+.active-dark .section-title p a,
+.active-dark .slide.slider-style-3 .inner h1.title,
+.active-dark .color-black .mainmenunav ul.mainmenu > li > a,
+.active-dark ul.social-share.social-style--2.color-black li a,
+.active-dark .header-area.color-black a.rn-btn,
+.active-dark ul.tab-style--1 li {
+  color: #ffffff;
+}
+/* .active-dark .portfolio-sacousel-inner .slick-dots li button::after,
+.active-dark .rn-slick-dot .slick-dots li button::after {
+  background: #ffffff;
+  box-shadow: inset 0 0 0 5px #ffffff;
+} */
+.active-dark .creative-service-wrapper .row.creative-service .service.service__style--2 {
+  background: #191919;
+}
+.active-dark .contact-form--1 input, .active-dark .contact-form--1 textarea,
+.active-dark .header-area.color-black a.rn-btn {
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.active-dark .header-area.color-black a.rn-btn:hover {
+  border-color: #053bff;
+}
+.active-dark .header-area.header--fixed.sticky {
+  background: #191919;
+}
+.active-dark .header-area.header--fixed.sticky .header-wrapper a.rn-btn {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+.active-dark .header-area.header--fixed.sticky .header-wrapper a.rn-btn:hover {
+  color: #ffffff;
+  border-color: #053bff;
+}
+.active-dark .bg_image--25 {
+  background-color: #101010;
+  background-image: url(/assets/images/bg/bg-image-28.jpg) !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.active-dark .backto-top > div {
+  background-color: rgb(255, 255, 255);
+}
+.active-dark .backto-top svg {
+  color: rgb(0, 0, 0);
+}
+.active-dark .contact-form--1 input,
+.active-dark .contact-form--1 textarea {
+  color: rgba(198, 201, 216, 0.75);
+}
+.active-dark .personal-portfolio-slider::before {
+  display: none;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .active-dark .header-style-two .humberger-menu span.text-white {
+    color: #ffffff !important;
+  }
+  /* .active-dark .header-area .header-wrapper .mainmenunav ul.mainmenu {
+    background: #101010;
+  } */
+  /* .active-dark .header-area .header-wrapper.menu-open .close-menu span {
+    color: #ffffff !important;
+  } */
+  .active-dark .header-area.header--fixed.sticky .humberger-menu span.text-white {
+    color: #ffffff !important;
+  }
+  /* .active-dark .header-area .header-wrapper .mainmenunav ul.mainmenu li a {
+    color: #ffffff;
+  } */
+  .active-dark .header-area .header-wrapper .mainmenunav ul.mainmenu li.has-droupdown > a::after {
+    border-color: #ffffff transparent transparent transparent;
+  }
+  .active-dark .header-area .header-wrapper .mainmenunav ul.mainmenu li.has-droupdown > a.open::after {
+    border-color: transparent transparent #053bff transparent;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .active-dark .header-style-two .humberger-menu span.text-white {
+    color: #ffffff !important;
+  }
+  /* .active-dark .header-area .header-wrapper .mainmenunav ul.mainmenu {
+    background: #101010;
+  } */
+  /* .active-dark .header-area .header-wrapper.menu-open .close-menu span {
+    color: #ffffff !important;
+  } */
+  .active-dark .header-area.header--fixed.sticky .humberger-menu span.text-white {
+    color: #ffffff !important;
+  }
+  .active-dark .service.service__style--2 .content p {
+    color: #ffffff;
+  }
+  /* .active-dark .header-area .header-wrapper .mainmenunav ul.mainmenu li a {
+    color: #ffffff;
+  } */
+  .active-dark .header-area .header-wrapper .mainmenunav ul.mainmenu li.has-droupdown > a::after {
+    border-color: #ffffff transparent transparent transparent;
+  }
+  .active-dark .header-area .header-wrapper .mainmenunav ul.mainmenu li.has-droupdown > a.open::after {
+    border-color: transparent transparent #053bff transparent;
+  }
+}

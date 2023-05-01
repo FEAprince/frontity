@@ -1,0 +1,275 @@
+/*====================
+    About Area 
+======================*/
+.rn-finding-us-area .inner {
+  position: relative;
+  padding-left: 240px;
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .rn-finding-us-area .inner {
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .rn-finding-us-area .inner {
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .rn-finding-us-area .inner {
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+.rn-finding-us-area .inner .content-wrapper .content {
+  background: #272527;
+  padding: 120px 100px;
+  position: relative;
+  z-index: 2;
+  width: 800px;
+  border-radius: 10px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .rn-finding-us-area .inner .content-wrapper .content {
+    padding: 60px 50px;
+    width: 100%;
+    border-radius: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .rn-finding-us-area .inner .content-wrapper .content {
+    padding: 60px 50px;
+    width: 100%;
+    border-radius: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .rn-finding-us-area .inner .content-wrapper .content {
+    padding: 30px 30px;
+    width: 100%;
+    border-radius: 0;
+  }
+}
+.rn-finding-us-area .inner .content-wrapper .content h4 {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 767px) {
+  .rn-finding-us-area .inner .content-wrapper .content h4 {
+    font-size: 26px;
+    margin-bottom: 12px;
+  }
+}
+.rn-finding-us-area .inner .content-wrapper .content p {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 300;
+  margin-bottom: 41px;
+  padding-right: 10%;
+}
+@media only screen and (max-width: 767px) {
+  .rn-finding-us-area .inner .content-wrapper .content p {
+    margin-bottom: 24px;
+    padding-right: 0;
+  }
+}
+.rn-finding-us-area .inner .thumbnail {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .rn-finding-us-area .inner .thumbnail {
+    position: static;
+    height: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .rn-finding-us-area .inner .thumbnail {
+    position: static;
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .rn-finding-us-area .inner .thumbnail {
+    position: static;
+    height: 100%;
+  }
+}
+.rn-finding-us-area .inner .thumbnail img {
+  border-radius: 10px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .rn-finding-us-area .inner .thumbnail img {
+    border-radius: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .rn-finding-us-area .inner .thumbnail img {
+    border-radius: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .rn-finding-us-area .inner .thumbnail img {
+    border-radius: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-inner {
+    padding-top: 40px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .about-inner {
+    padding-top: 40px;
+  }
+}
+.about-inner .section-title h2.title {
+  margin-bottom: 8px;
+}
+.about-inner .section-title p.description {
+  font-weight: 400;
+  color: #000000;
+}
+.about-inner .section-title p.description a {
+  color: rgb(29, 29, 36);
+}
+.about-inner .section-title p.description a:hover {
+  color: #053bff;
+}
+
+.about-wrapper .thumbnail {
+  position: relative;
+  z-index: 2;
+}
+.about-wrapper .thumbnail img {
+  border-radius: 8px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-position-top {
+    padding-top: 120px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-position-top {
+    padding-top: 80px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .about-position-top {
+    padding-top: 60px;
+  }
+}
+.about-position-top .thumbnail {
+  margin-top: -130px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-position-top .thumbnail {
+    margin-top: 0;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+  .about-position-top .thumbnail {
+    margin-top: -89px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-position-top .thumbnail {
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .about-position-top .thumbnail {
+    margin-top: 0;
+  }
+}
+
+.about-us-list {
+  margin-top: 15px;
+}
+.about-us-list h3.title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 767px) {
+  .about-us-list h3.title {
+    font-size: 26px;
+    margin-bottom: 8px;
+  }
+}
+.about-us-list p {
+  font-weight: 400;
+  color: #000000;
+}
+
+.rn-content-box-style--1 .content {
+  text-align: left;
+  padding: 0 120px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .rn-content-box-style--1 .content {
+    padding: 0 60px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .rn-content-box-style--1 .content {
+    padding: 0 40px;
+  }
+}
+.rn-content-box-style--1 .content p.subtitle {
+  color: #1f1f25;
+  font-size: 16px;
+  font-weight: 400;
+  background: rgba(255, 26, 80, 0.03);
+  padding: 8px 25px;
+  display: inline-block;
+  border-radius: 4px;
+}
+.rn-content-box-style--1 .content p.subtitle span {
+  color: #053bff;
+}
+.rn-content-box-style--1 .content h2 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 36px;
+  line-height: 50px;
+  font-weight: 500;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .rn-content-box-style--1 .content h2 {
+    margin-top: 7px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .rn-content-box-style--1 .content h2 {
+    margin-top: 7px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .rn-content-box-style--1 .content h2 {
+    margin-top: 7px;
+  }
+}
+.rn-content-box-style--1 .content p {
+  color: rgba(29, 29, 36, 0.75);
+  font-size: 18px;
+  line-height: 30px;
+}

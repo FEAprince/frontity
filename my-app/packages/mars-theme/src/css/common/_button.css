@@ -1,0 +1,192 @@
+/*===================
+Button Area 
+====================*/
+a.btn-transparent {
+  color: #1f1f25;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 3px;
+}
+a.btn-transparent:hover {
+  color: #053bff;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+a.btn-transparent::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 40px;
+  height: 2px;
+  background: #053bff;
+  opacity: 0.75;
+}
+a.btn-transparent:hover::after {
+  width: 100%;
+}
+
+a.rn-btn,
+button.rn-btn {
+  padding: 0 23px;
+  height: 40px;
+  display: inline-block;
+  line-height: 34px;
+  border: 2px solid #053bff;
+  border-radius: 4px;
+  font-size: 14px;
+  position: relative;
+  z-index: 2;
+  color: #053bff;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+}
+a.rn-btn:hover,
+button.rn-btn:hover {
+  border: 2px solid #053bff;
+  transform: translateY(-3px);
+  color: #ffffff;
+  background: #053bff;
+}
+a.rn-btn.btn-white,
+button.rn-btn.btn-white {
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+a.rn-btn.btn-white:hover,
+button.rn-btn.btn-white:hover {
+  border-color: #053bff;
+}
+
+button.rn-button-style--2,
+a.rn-button-style--2 {
+  color: #ffffff;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 2px solid #b1b4c1;
+  padding: 15px 40px;
+  border-radius: 6px;
+  display: inline-block;
+  font-weight: 500;
+  transition: 0.3s;
+}
+@media only screen and (max-width: 767px) {
+  button.rn-button-style--2,
+a.rn-button-style--2 {
+    padding: 9px 25px;
+  }
+}
+button.rn-button-style--2.rn-btn-dark,
+a.rn-button-style--2.rn-btn-dark {
+  border: 2px solid #1f1f25;
+  color: #1f1f25;
+}
+button.rn-button-style--2.rn-btn-dark:hover,
+a.rn-button-style--2.rn-btn-dark:hover {
+  background: #1f1f25;
+  color: #fff;
+}
+button.rn-button-style--2.border-opacity-half,
+a.rn-button-style--2.border-opacity-half {
+  border-color: rgba(31, 31, 37, 0.1);
+}
+button.rn-button-style--2.rn-btn-small,
+a.rn-button-style--2.rn-btn-small {
+  padding: 10px 20px;
+}
+button.rn-button-style--2.btn-primary-color:hover,
+a.rn-button-style--2.btn-primary-color:hover {
+  border: 2px solid #053bff;
+  background: #053bff;
+  color: #ffffff;
+}
+button.rn-button-style--2.btn-solid,
+a.rn-button-style--2.btn-solid {
+  border: 2px solid #053bff;
+  background: #053bff;
+  color: #ffffff;
+}
+button.rn-button-style--2:hover,
+a.rn-button-style--2:hover {
+  background: transparent;
+  color: #053bff;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+/*----------------------------
+    Video Popup Styles 
+-------------------------------*/
+button.video-popup {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background: #fff;
+  transition: all 1s cubic-bezier(0, 0, 0.2, 1);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+}
+button.video-popup::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  transform: translate(-6px, -9px);
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+  border-left: 15px solid #053bff;
+}
+button.video-popup:hover {
+  transform: scale3d(1.15, 1.15, 1.15);
+}
+
+button.video-popup.position-top-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 0 none;
+  width: 110px;
+  height: 110px;
+  margin-left: -55px;
+  margin-top: -55px;
+  transition: all 1s cubic-bezier(0, 0, 0.2, 1);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+}
+@media only screen and (max-width: 767px) {
+  button.video-popup.position-top-center {
+    width: 70px;
+    height: 70px;
+    margin-left: -35px;
+    margin-top: -35px;
+  }
+}
+button.video-popup.position-top-center:hover {
+  transform: scale3d(1.15, 1.15, 1.15);
+}
+button.video-popup.position-top-center.md-size {
+  width: 80px;
+  height: 80px;
+  margin-left: -40px;
+  margin-top: -40px;
+}
+button.video-popup.theme-color {
+  background: #053bff;
+  border-color: #053bff;
+}
+button.video-popup.theme-color::before {
+  border-left: 15px solid #ffffff;
+}
+button.video-popup.black-color {
+  background: #000000;
+  border-color: #000000;
+}
+button.video-popup.black-color::before {
+  border-left: 15px solid #ffffff;
+}

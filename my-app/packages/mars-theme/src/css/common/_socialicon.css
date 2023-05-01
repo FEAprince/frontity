@@ -1,0 +1,71 @@
+/* Social icon Styles  */
+ul.social-share {
+  padding: 0;
+  margin: 0;
+  margin: -6px;
+}
+ul.social-share li {
+  margin: 6px;
+}
+ul.social-share li a {
+  width: 40px;
+  display: inline-block;
+  height: 40px;
+  border: 2px solid rgba(198, 201, 216, 0.75);
+  line-height: 35px;
+  color: #d4d7e2;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 14px;
+}
+ul.social-share li:hover a {
+  background: #053bff;
+  border-color: #053bff;
+  color: #ffffff;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1);
+  transform: translateY(-3px);
+}
+ul.social-share.color-theme li a {
+  border-color: #053bff;
+  color: #053bff;
+}
+ul.social-share.color-theme li a:hover {
+  background: #053bff;
+  border-color: #053bff;
+  color: #d4d7e2;
+}
+ul.social-share.rn-lg-size {
+  margin-top: 0 !important;
+}
+ul.social-share.rn-lg-size li a {
+  width: 50px;
+  height: 50px;
+  line-height: 44px;
+  font-size: 16px;
+}
+ul.social-share.social-style--2 li a {
+  border: 0 none;
+  width: 30px;
+  height: auto;
+  text-align: left;
+  line-height: inherit;
+  font-size: 16px;
+}
+ul.social-share.social-style--2 li:hover a {
+  background: transparent;
+  box-shadow: none;
+}
+ul.social-share.social-style--2.color-theme li a {
+  color: #053bff;
+}
+ul.social-share.social-style--2.color-theme li a:hover {
+  color: currentColor;
+}
+ul.social-share.social-style--2.color-black li a {
+  color: #1d1d24;
+  opacity: 0.8;
+}
+ul.social-share.social-style--2.color-black li a:hover {
+  color: #053bff;
+  opacity: 1;
+}

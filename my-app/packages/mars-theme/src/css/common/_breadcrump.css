@@ -1,0 +1,93 @@
+
+/*====================
+    Breadcrump Area 
+======================*/
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1260px;
+  }
+}
+.breadcrumb-inner {
+  text-align: center;
+}
+.breadcrumb-inner h2.title {
+  background: #053bff;
+  background: linear-gradient(145deg, #053bff 0%, 4164ca 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+.breadcrumb-inner ul.page-list li {
+  display: inline-block;
+  color: #fff;
+}
+.breadcrumb-inner ul.page-list li a {
+  color: #fff;
+}
+ul.page-list {
+  padding: 0;
+  margin: 0;
+}
+.breadcrumb-inner ul.page-list li.breadcrumb-item.active {
+  color: #ef0;
+  width: 64px;
+  margin-left: 10px;
+}
+
+.breadcrupm-style--2 h2.title {
+  text-transform: uppercase;
+  font-size: 72px;
+}
+@media only screen and (max-width: 767px) {
+  .breadcrupm-style--2 h2.title {
+    font-size: 40px;
+    line-height: 59px;
+  }
+}
+.breadcrupm-style--2 span {
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.rn-page-title h2.title {
+  font-size: 72px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .rn-page-title h2.title {
+    font-size: 56px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .rn-page-title h2.title {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .rn-page-title h2.title {
+    font-size: 40px;
+    line-height: 59px;
+  }
+}
+.rn-page-title p {
+  font-size: 22px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+.backto-top > div {
+  width: 50px;
+  height: 50px;
+  line-height: 49px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  text-align: center;
+  overflow: hidden;
+  z-index: 999 !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+.backto-top svg {
+  font-size: 14px !important;
+  color: #222222;
+  width: 27px;
+  height: 27px;
+}

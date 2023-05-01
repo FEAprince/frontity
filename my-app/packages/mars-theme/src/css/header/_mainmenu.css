@@ -1,0 +1,104 @@
+/*====================
+Mainmenu Area 
+=====================*/
+.mainmenunav ul.mainmenu {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+.mainmenunav ul.mainmenu > li {
+  margin: 0 15px;
+  position: relative;
+}
+.mainmenunav ul.mainmenu > li > a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 20px 0;
+  display: inline-block;
+}
+.mainmenunav ul.mainmenu > li > ul.submenu {
+  min-width: 240px;
+  height: auto;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 90;
+  opacity: 0;
+  visibility: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  padding: 12px 0;
+  border-radius: 4px;
+}
+.mainmenunav ul.mainmenu > li > ul.submenu li a {
+  font-weight: 500;
+  padding: 5px 20px;
+  font-size: 14px;
+  display: block;
+  color: #1f1f25;
+  margin: 0 10px;
+  border-radius: 3px;
+}
+.mainmenunav ul.mainmenu > li > ul.submenu li:hover a {
+  color: #053bff;
+  background: rgba(249, 0, 77, 0.07);
+}
+.mainmenunav ul.mainmenu > li:hover > ul.submenu {
+  opacity: 1;
+  visibility: visible;
+}
+.mainmenunav ul.mainmenu > li:hover > a {
+  color: #053bff;
+}
+.mainmenunav ul.mainmenu > li:first-child {
+  margin-left: 0;
+}
+.mainmenunav ul.mainmenu > li:last-child {
+  margin-right: 0;
+}
+
+.humberger-menu span.text-white {
+  color: #ffffff !important;
+}
+
+.color-white .mainmenunav ul.mainmenu > li > a {
+  color: #ffffff;
+}
+.color-white .mainmenunav ul.mainmenu > li:hover > a {
+  color: rgba(255, 255, 255, 0.6);
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .color-white .mainmenunav ul.mainmenu > li:hover > a {
+    color: #053bff;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .color-white .mainmenunav ul.mainmenu > li:hover > a {
+    color: #053bff;
+  }
+}
+
+.color-black .mainmenunav ul.mainmenu > li > a {
+  color: rgb(29, 29, 36);
+}
+.color-black .mainmenunav ul.mainmenu > li:hover > a {
+  color: #053bff;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .header-style-two .humberger-menu span.text-white {
+    color: #1d1d24 !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .header-style-two .humberger-menu span.text-white {
+    color: #1d1d24 !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .header-style-two .humberger-menu span.text-white {
+    color: #1d1d24 !important;
+  }
+}

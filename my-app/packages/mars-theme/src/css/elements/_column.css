@@ -1,0 +1,27 @@
+
+/*-------------------
+    Column Area  
+---------------------*/
+.single-column h4.tilte {
+  margin-bottom: 6px;
+}
+.single-column p {
+  font-size: 16px;
+  line-height: 28px;
+}
+.single-column.custom-color {
+  background: #053bff;
+  padding: 37px 29px;
+}
+.single-column.custom-color h4.tilte {
+  color: #ffffff;
+}
+.single-column.custom-color p {
+  color: #ffffff;
+}
+.single-column.custom-color.custom-color--1 {
+  background: #001c43;
+}
+.single-column.custom-color.custom-color--2 {
+  background: #c93ec7;
+}

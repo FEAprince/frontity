@@ -1,0 +1,972 @@
+/*==============================
+ *  Utilities
+=================================*/
+/*====================================
+    Google Font  
+===================================*/
+/*----------------------------------------
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+-------------------------------------*/
+.hidden {
+  display: none;
+}
+
+.fix {
+  overflow: hidden;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.poss_relative {
+  position: relative;
+}
+
+.poss_absolute {
+  position: absolute;
+}
+
+.lineheight--1 {
+  line-height: 1 !important;
+}
+
+.lineheight--1-5 {
+  line-height: 1.5 !important;
+}
+
+.lineheight--1-8 {
+  line-height: 1.8 !important;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.wrapper {
+  position: relative;
+}
+
+/* Define Colors */
+.theme-color {
+  color: #053bff;
+}
+
+.theme-gradient {
+  background: #053bff;
+  background: linear-gradient(145deg, #053bff 20%, #4164ca 90%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#053bff", endColorstr="#ee076e",GradientType=1 );
+}
+
+.rn-text-white {
+  color: #ffffff !important;
+}
+
+/*===============================
+    Background Color 
+=================================*/
+.bg_color--1 {
+  background: #fff !important;
+}
+
+.bg_color--2 {
+  background: #053bff;
+}
+
+.bg_color--3 {
+  background: #f8f9fc;
+}
+
+.bg_color--4 {
+  background: #000000;
+}
+
+.bg_color--5 {
+  background: #f8f9fc !important;
+}
+
+.bg_color--6 {
+  background: #000000;
+}
+
+.bg_color--7 {
+  background: #101010;
+}
+
+/*===========================
+    Background Image 
+=============================*/
+.bg_overlay:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  opacity: 0.57;
+}
+
+.bg_overlay {
+  position: relative;
+}
+
+.bg_image--1 {
+  background: #000000;
+}
+
+.bg_image--3 {
+  background: #f9f9f9;
+}
+
+.bg_image--4 {
+  background-image: url(/assets/images/bg/bg-image-4.jpg) !important;
+}
+
+.bg_image--5 {
+  background-image: url(/assets/images/bg/bg-image-5.jpg) !important;
+}
+
+.bg_image--6 {
+  background-image: url(/assets/images/bg/bg-image-6.jpg) !important;
+}
+
+.bg_image--7 {
+  background-image: url(/assets/images/bg/bg-image-7.jpg) !important;
+}
+
+.bg_image--8 {
+  background-image: url(/assets/images/bg/bg-image-8.jpg) !important;
+}
+
+.bg_image--9 {
+  background-image: url(/assets/images/bg/bg-image-9.jpg) !important;
+}
+
+.bg_image--10 {
+  background-image: url(/assets/images/bg/bg-image-10.jpg) !important;
+}
+
+.bg_image--11 {
+  background-image: url(/assets/images/bg/bg-image-11.jpg) !important;
+}
+
+.bg_image--12 {
+  background-image: url(/assets/images/bg/bg-image-12.jpg) !important;
+}
+
+.bg_image--13 {
+  background-image: url(/assets/images/bg/bg-image-13.jpg) !important;
+}
+
+.bg_image--14 {
+  background-image: url(/assets/images/bg/bg-image-14.jpg) !important;
+}
+
+.bg_image--15 {
+  background-image: url(/assets/images/bg/bg-image-15.jpg) !important;
+}
+
+.bg_image--16 {
+  background-image: url(/assets/images/bg/bg-image-16.jpg) !important;
+}
+
+/* .bg_image--17 {
+  background-image: url(/assets/images/bg/bg-image-17.jpg) !important;
+} */
+
+.bg_image--18 {
+  background-image: url(/assets/images/bg/bg-image-18.jpg) !important;
+}
+
+.bg_image--19 {
+  background-image: url(/assets/images/bg/bg-image-19.jpg) !important;
+}
+
+.bg_image--20 {
+  background-image: url(/assets/images/bg/bg-image-20.jpg) !important;
+}
+
+.bg_image--21 {
+  background-image: url(/assets/images/bg/bg-image-21.jpg) !important;
+}
+
+.bg_image--22 {
+  background-image: url(/assets/images/bg/bg-image-22.jpg) !important;
+}
+
+.bg_image--23 {
+  background-image: url(/assets/images/bg/bg-image-23.jpg) !important;
+}
+
+.bg_image--24 {
+  background-image: url(/assets/images/bg/bg-image-24.jpg) !important;
+}
+
+.bg_image--25 {
+  background-image: url(/assets/images/bg/bg-image-25.jpg) !important;
+}
+
+.bg_image--26 {
+  background-image: url(/assets/images/bg/bg-image-26.jpg) !important;
+}
+
+.bg_image--27 {
+  background-image: url(/assets/images/bg/bg-image-27.jpg) !important;
+}
+
+.bg_image--28 {
+  background-image: url(/assets/images/bg/bg-image-28.jpg) !important;
+}
+
+.bg_image--29 {
+  background-image: url(/assets/images/bg/bg-image-29.jpg) !important;
+}
+
+.bg_image--30 {
+  background-image: url(/assets/images/bg/bg-image-30.jpg) !important;
+}
+
+.bg_image--31 {
+  background-image: url(/assets/images/bg/bg-image-31.jpg) !important;
+}
+
+.bg_image--32 {
+  background-image: url(/assets/images/bg/bg-image-32.jpg) !important;
+}
+
+.bg_image--33 {
+  background-image: url(/assets/images/bg/bg-image-33.jpg) !important;
+}
+
+.bg_image--34 {
+  background-image: url(/assets/images/bg/bg-image-34.jpg) !important;
+}
+
+.bg_image--35 {
+  background-image: url(/assets/images/bg/bg-image-35.jpg) !important;
+}
+
+.font--1 {
+  font-size: 1px !important;
+}
+
+.font--2 {
+  font-size: 2px !important;
+}
+
+.font--3 {
+  font-size: 3px !important;
+}
+
+.font--4 {
+  font-size: 4px !important;
+}
+
+.font--5 {
+  font-size: 5px !important;
+}
+
+.font--6 {
+  font-size: 6px !important;
+}
+
+.font--7 {
+  font-size: 7px !important;
+}
+
+.font--8 {
+  font-size: 8px !important;
+}
+
+.font--9 {
+  font-size: 9px !important;
+}
+
+.font--10 {
+  font-size: 10px !important;
+}
+
+.font--11 {
+  font-size: 11px !important;
+}
+
+.font--12 {
+  font-size: 12px !important;
+}
+
+.font--13 {
+  font-size: 13px !important;
+}
+
+.font--14 {
+  font-size: 14px !important;
+}
+
+.font--15 {
+  font-size: 15px !important;
+}
+
+.font--16 {
+  font-size: 16px !important;
+}
+
+.font--17 {
+  font-size: 17px !important;
+}
+
+.font--18 {
+  font-size: 18px !important;
+}
+
+.font--19 {
+  font-size: 19px !important;
+}
+
+.font--20 {
+  font-size: 20px !important;
+}
+
+.font--21 {
+  font-size: 21px !important;
+}
+
+.font--22 {
+  font-size: 22px !important;
+}
+
+.font--23 {
+  font-size: 23px !important;
+}
+
+.font--24 {
+  font-size: 24px !important;
+}
+
+.font--25 {
+  font-size: 25px !important;
+}
+
+.font--26 {
+  font-size: 26px !important;
+}
+
+.font--27 {
+  font-size: 27px !important;
+}
+
+.font--28 {
+  font-size: 28px !important;
+}
+
+.font--29 {
+  font-size: 29px !important;
+}
+
+.font--30 {
+  font-size: 30px !important;
+}
+
+.font--31 {
+  font-size: 31px !important;
+}
+
+.font--32 {
+  font-size: 32px !important;
+}
+
+.font--33 {
+  font-size: 33px !important;
+}
+
+.font--34 {
+  font-size: 34px !important;
+}
+
+.font--35 {
+  font-size: 35px !important;
+}
+
+.font--36 {
+  font-size: 36px !important;
+}
+
+.font--37 {
+  font-size: 37px !important;
+}
+
+.font--38 {
+  font-size: 38px !important;
+}
+
+.font--39 {
+  font-size: 39px !important;
+}
+
+.font--40 {
+  font-size: 40px !important;
+}
+
+.font--41 {
+  font-size: 41px !important;
+}
+
+.font--42 {
+  font-size: 42px !important;
+}
+
+.font--43 {
+  font-size: 43px !important;
+}
+
+.font--44 {
+  font-size: 44px !important;
+}
+
+.font--45 {
+  font-size: 45px !important;
+}
+
+.font--46 {
+  font-size: 46px !important;
+}
+
+.font--47 {
+  font-size: 47px !important;
+}
+
+.font--48 {
+  font-size: 48px !important;
+}
+
+.font--49 {
+  font-size: 49px !important;
+}
+
+.font--50 {
+  font-size: 50px !important;
+}
+
+.font--51 {
+  font-size: 51px !important;
+}
+
+.font--52 {
+  font-size: 52px !important;
+}
+
+.font--53 {
+  font-size: 53px !important;
+}
+
+.font--54 {
+  font-size: 54px !important;
+}
+
+.font--55 {
+  font-size: 55px !important;
+}
+
+.font--56 {
+  font-size: 56px !important;
+}
+
+.font--57 {
+  font-size: 57px !important;
+}
+
+.font--58 {
+  font-size: 58px !important;
+}
+
+.font--59 {
+  font-size: 59px !important;
+}
+
+.font--60 {
+  font-size: 60px !important;
+}
+
+.font--61 {
+  font-size: 61px !important;
+}
+
+.font--62 {
+  font-size: 62px !important;
+}
+
+.font--63 {
+  font-size: 63px !important;
+}
+
+.font--64 {
+  font-size: 64px !important;
+}
+
+.font--65 {
+  font-size: 65px !important;
+}
+
+.font--66 {
+  font-size: 66px !important;
+}
+
+.font--67 {
+  font-size: 67px !important;
+}
+
+.font--68 {
+  font-size: 68px !important;
+}
+
+.font--69 {
+  font-size: 69px !important;
+}
+
+.font--70 {
+  font-size: 70px !important;
+}
+
+.font--71 {
+  font-size: 71px !important;
+}
+
+.font--72 {
+  font-size: 72px !important;
+}
+
+.font--73 {
+  font-size: 73px !important;
+}
+
+.font--74 {
+  font-size: 74px !important;
+}
+
+.font--75 {
+  font-size: 75px !important;
+}
+
+.font--76 {
+  font-size: 76px !important;
+}
+
+.font--77 {
+  font-size: 77px !important;
+}
+
+.font--78 {
+  font-size: 78px !important;
+}
+
+.font--79 {
+  font-size: 79px !important;
+}
+
+.font--80 {
+  font-size: 80px !important;
+}
+
+p {
+  font-size: 18px;
+  line-height: 30px;
+}
+@media only screen and (max-width: 767px) {
+  p {
+    font-size: 16px !important;
+    line-height: 28px !important;
+  }
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+/*=========================
+    Text specialized 
+==========================*/
+.text-italic {
+  font-style: italic;
+}
+
+.text-normal {
+  font-style: normal;
+}
+
+.text-underline {
+  font-style: underline;
+}
+
+/* Height and width */
+.fullscreen {
+  min-height: 100vh;
+  width: 100%;
+}
+@media only screen and (max-width: 767px) {
+  .fullscreen {
+    min-height: auto;
+  }
+}
+.fullscreen.empty-div {
+  pointer-events: none;
+  background: transparent;
+}
+
+/*===================
+Custom Row
+======================*/
+.row--0 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.row--0 > [class*=col] {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.row--5 {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.row--5 > [class*=col] {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.row--10 {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.row--10 > [class*=col] {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.row--20 {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+  .row--20 {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .row--20 {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .row--20 {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .row--20 {
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+  }
+}
+.row--20 > [class*=col], .row--20 > [class*=col-] {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+  .row--20 > [class*=col], .row--20 > [class*=col-] {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .row--20 > [class*=col], .row--20 > [class*=col-] {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .row--20 > [class*=col], .row--20 > [class*=col-] {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .row--20 > [class*=col], .row--20 > [class*=col-] {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
+
+.row--35 {
+  margin-left: -35px;
+  margin-right: -35px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+  .row--35 {
+    margin-left: -25px;
+    margin-right: -25px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .row--35 {
+    margin-left: -25px;
+    margin-right: -25px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .row--35 {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .row--35 {
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+  }
+}
+.row--35 > [class*=col], .row--35 > [class*=col-] {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+  .row--35 > [class*=col], .row--35 > [class*=col-] {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .row--35 > [class*=col], .row--35 > [class*=col-] {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .row--35 > [class*=col], .row--35 > [class*=col-] {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .row--35 > [class*=col], .row--35 > [class*=col-] {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
+
+/*===========================
+    Input Placeholder
+=============================*/
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+/*=============================
+	Overlay styles 
+==============================*/
+[data-overlay],
+[data-black-overlay],
+[data-white-overlay] {
+  position: relative;
+  z-index: 1;
+}
+
+[data-overlay] > div,
+[data-overlay] > *,
+[data-black-overlay] > div,
+[data-black-overlay] > *,
+[data-white-overlay] > div,
+[data-white-overlay] > * {
+  position: relative;
+  z-index: 1;
+}
+
+[data-overlay]:before,
+[data-black-overlay]:before,
+[data-white-overlay]:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+[data-overlay]:before {
+  background-color: #053bff;
+}
+
+[data-black-overlay]:before {
+  background-color: #000000;
+}
+
+[data-white-overlay]:before {
+  background-color: #ffffff;
+}
+
+[data-overlay="1"]:before,
+[data-black-overlay="1"]:before,
+[data-white-overlay="1"]:before {
+  opacity: 0.1;
+}
+
+[data-overlay="2"]:before,
+[data-black-overlay="2"]:before,
+[data-white-overlay="2"]:before {
+  opacity: 0.2;
+}
+
+[data-overlay="3"]:before,
+[data-black-overlay="3"]:before,
+[data-white-overlay="3"]:before {
+  opacity: 0.3;
+}
+
+[data-overlay="4"]:before,
+[data-black-overlay="4"]:before,
+[data-white-overlay="4"]:before {
+  opacity: 0.4;
+}
+
+[data-overlay="5"]:before,
+[data-black-overlay="5"]:before,
+[data-white-overlay="5"]:before {
+  opacity: 0.5;
+}
+
+[data-overlay="6"]:before,
+[data-black-overlay="6"]:before,
+[data-white-overlay="6"]:before {
+  opacity: 0.6;
+}
+
+[data-overlay="7"]:before,
+[data-black-overlay="7"]:before,
+[data-white-overlay="7"]:before {
+  opacity: 0.7;
+}
+
+[data-overlay="8"]:before,
+[data-black-overlay="8"]:before,
+[data-white-overlay="8"]:before {
+  opacity: 0.8;
+}
+
+[data-overlay="9"]:before,
+[data-black-overlay="9"]:before,
+[data-white-overlay="9"]:before {
+  opacity: 0.9;
+}
+
+[data-overlay="10"]:before,
+[data-black-overlay="10"]:before,
+[data-white-overlay="10"]:before {
+  opacity: 1;
+}
+
+/*------------------------------
+    Scroll Up 
+--------------------------------*/
+#scrollUp {
+  width: 40px;
+  height: 40px;
+  background-color: #053bff;
+  border: 3px solid #eeeeee;
+  color: #1f1f25;
+  right: 20px;
+  bottom: 60px;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 50px;
+  z-index: 9811 !important;
+}
+@media only screen and (max-width: 767px) {
+  #scrollUp {
+    display: none !important;
+  }
+}
+#scrollUp i {
+  display: block;
+  line-height: 34px;
+  font-size: 22px;
+}
+#scrollUp:hover i {
+  animation-name: fadeInUp;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+.form-message {
+  margin-bottom: 0;
+  text-align: center;
+}
+.form-message.error {
+  margin-top: 20px;
+  color: #f80707;
+}
+.form-message.success {
+  margin-top: 20px;
+  color: #0d8d2d;
+}
+
+.thumb img, .thumbnail img {
+  border-radius: 6px;
+}
+
+img.react-parallax-bgimage {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
